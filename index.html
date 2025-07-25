@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>First Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+    </style>
 </head>
 <body>
-    <h1>hello world</h1>
+    <main class="p-30">
+        <div class="bg-[#FEDFE3] w-[414px] h-[736px] px-[8px] py-[16px] text-[24px] text-[#B95C50] font-[caladea]">
+           <div class="flex flex-col align-center items-center relative gap-10">   
+                <p class="pt-[92px]">THE WEDDING</p>
+                <img class="h-[392px] w-[306px]" src="img/bunga.png" alt="">
+                <div class="absolute inset-0 justify-center flex align-center items-center gap-[15px] text-[36px]">
+                    <span class="flex align-center items-center gap-[20px] mt-15"> Malvin<img class="w-[28px] h-[31px]" src="img/ring.png" alt="">Jeannete</span>
+                </div>
+                <div class="flex align-center items-center justify-center ">
+                    <button class="font-mono font-bold text-white bg-[#B95C50] w-[334px] h-[52px] rounded-[30px]">BUKA UNDANGAN</button>
+                    <!-- <a class="font-mono font-bold text-white bg-[#B95C50] W-[334px] h-[52px] rounded-[30px]" href="satu.html">BUKU UNDANGAN</a> -->
+                </div>
+           </div>
+        </div>
+    </main>
 </body>
 </html>
