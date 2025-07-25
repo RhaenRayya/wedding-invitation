@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&display=swap');
+header{
+    font-family:'Dancing Script';
+}
+.tittle1 p{
+    font-family:'Dancing Script';
+}
+.tittle2 p{
+    font-family:'Dancing Script';
+}
+.keterangan-acara1 p{
+    font-family: 'Caladea';
+    
+}
+.keterangan-acara2 p{
+    font-family:  'Caladea';
+}
